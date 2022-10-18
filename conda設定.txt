@@ -1,0 +1,16 @@
+為了在使用cmd使用conda
+需要把一些路徑丟到環境變數中，請參照
+https://stackoverflow.com/questions/44515769/conda-is-not-recognized-as-internal-or-external-command
+https://exerror.com/conda-is-not-recognized-as-internal-or-external-command/
+
+C:\Users\Neo\miniconda3\Scripts
+C:\Users\Neo\miniconda3
+C:\Users\Neo\miniconda3\Library\bin
+
+處理完之後重開機
+
+"以上方式官方不建議，可能會影響到其他軟體，到時要重安裝conda，使用以下方式就好"
+
+把code runner執行python的路徑換成env python的路徑，修改workspace的就好，不要改到全域的
+https://stackoverflow.com/questions/51930833/vs-code-not-running-a-python-file-in-the-conda-environment-mentioned
+"python": "$pythonPath -u $fullFileName"
