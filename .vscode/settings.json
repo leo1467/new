@@ -32,5 +32,8 @@
     "**/.vscode",
     "**/.vscode/**"
   ],
-  "python.analysis.typeCheckingMode": "basic"
+  "python.analysis.typeCheckingMode": "basic",
+  "files.associations": {
+    "ostream": "cpp"
+  }
 }
